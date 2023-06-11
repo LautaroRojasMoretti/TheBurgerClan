@@ -51,7 +51,12 @@ function sumarTotal(precio){
     total = total + precio;
     alert('Subtotal hasta el momento $'+total);
 }
-
-
-
+console.log('La compra de '+nombreUsuario+' es de $ '+total);
+let mensaje1 = prompt('Queres que te lo llevemos?🛵 s-si');
+while (mensaje1.toLowerCase() == 's'){
+    direccion = prompt('Cual es tu direccion?\n(Calles y número)🗺️');
+    console.log(nombreUsuario+' quiere que le llevemos el pedido a '+direccion);
+    break;
+}
+alert('Gracias '+nombreUsuario+' por tu compra!🍔🍟\nTe avisamos cuando salga hacia tu direccion!👍')
 
