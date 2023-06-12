@@ -1,3 +1,4 @@
+//primera preentrega
 let nombreUsuario = prompt('Ingresa tu nombre');
 while((nombreUsuario == '') || (nombreUsuario == ' ') ){
     alert('Nombre invalido😒');
@@ -10,6 +11,7 @@ while((nombreUbicacion == '') || (nombreUbicacion == ' ') ){
     alert('Ubicación NO valida 🗺️');
     nombreUbicacion = prompt('Ingresa tu ciudad');
 }
+console.log('El usuario '+nombreUsuario+' es de la ciudad de '+nombreUbicacion)
 alert('QUÉ BIEN! LLEGAMOS A '+nombreUbicacion);
 
 let mensaje = prompt('Queres ver el menú? (s-si)');
@@ -60,4 +62,25 @@ while (mensaje1.toLowerCase() == 's'){
 }
 alert('Gracias '+nombreUsuario+' por tu compra!🍔🍟\nTe avisamos cuando salga hacia tu direccion!👍')
 
+//segunda preentrega😶‍🌫️
 console.table(productos);
+
+//aca filtramos por precio...
+function filtrarPorPrecio(precio){
+    const filtrados = productos.filter((prod)=>prod.precio <= precio);
+    return filtrados;
+}
+
+//aca pedimos un dato de entrada al usuario
+let precioMax = parseFloat(prompt('Ingresa el precio maximo que puedes abonar\n0-Para salir'));
+
+while(precioMax != 0){
+    if(isNaN(precioMax) || precioMax < 0){
+        alert('Ingrese un numero valido🥴');
+    }else{
+        //aca ya tenemos un numero valido
+        const prodsFiltrados = filtrarPorPrecio(precioMax);
+        console.table(prodsFiltrados);
+    }
+    precioMax = parseFloat(prompt('Ingresa el precio maximo que puedes abonar\n0-Para salir'));
+}
