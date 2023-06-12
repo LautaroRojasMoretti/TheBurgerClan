@@ -60,3 +60,4 @@ while (mensaje1.toLowerCase() == 's'){
 }
 alert('Gracias '+nombreUsuario+' por tu compra!🍔🍟\nTe avisamos cuando salga hacia tu direccion!👍')
 
+console.table(productos);

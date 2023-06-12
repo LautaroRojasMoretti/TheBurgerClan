@@ -21,10 +21,12 @@ header {
   width: 150px;
   height: 150px; }
 
+ .navbar{
+    background-color: whitesmoke;}
 .navbar .container-fluid {
-  background-color: #000000; }
+  background-color: whitesmoke; }
   .navbar .container-fluid .navbar-brand {
-    color: whitesmoke; }
+    color: rgb(0, 0, 0); }
   .navbar .container-fluid .collapse .navbar-nav .navitem .navlink {
     color: whitesmoke; }
 
