@@ -4,15 +4,12 @@ while((nombreUsuario == '') || (nombreUsuario == ' ') ){
     alert('Nombre invalido😒');
     nombreUsuario = prompt('Ingresa tu nombre');
 }
-alert('Bienvenid@ '+nombreUsuario+' a la casa del Clan');
 
 let nombreUbicacion = prompt('Ingresa tu ciudad');
 while((nombreUbicacion == '') || (nombreUbicacion == ' ') ){
     alert('Ubicación NO valida 🗺️');
     nombreUbicacion = prompt('Ingresa tu ciudad');
 }
-console.log('El usuario '+nombreUsuario+' es de la ciudad de '+nombreUbicacion)
-alert('QUÉ BIEN! LLEGAMOS A '+nombreUbicacion);
 
 let mensaje = prompt('Queres ver el menú? (s-si)');
 let total = 0;
@@ -54,6 +51,7 @@ function sumarTotal(precio){
     alert('Subtotal hasta el momento $'+total);
 }
 console.log('La compra de '+nombreUsuario+' es de $ '+total);
+
 let mensaje1 = prompt('Queres que te lo llevemos?🛵 s-si');
 while (mensaje1.toLowerCase() == 's'){
     direccion = prompt('Cual es tu direccion?\n(Calles y número)🗺️');
@@ -84,3 +82,4 @@ while(precioMax != 0){
     }
     precioMax = parseFloat(prompt('Ingresa el precio maximo que puedes abonar\n0-Para salir'));
 }
+
