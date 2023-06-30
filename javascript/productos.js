@@ -1,6 +1,6 @@
 const productos = [{
     id: 1,
-    foto: "https://scontent.faep25-1.fna.fbcdn.net/v/t39.30808-6/259477148_412449730553705_2960226142748152001_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGZygwqG-nYr3j6W5Zk5d2NqKKwuLzlMUWoorC4vOUxRVdt7rtZwES6mKZiCHmhKpihF3OH3WCcCQ3FFlZkcyDz&_nc_ohc=lZISzrlpkuEAX86xEOd&_nc_ht=scontent.faep25-1.fna&oh=00_AfBoZ5zJ-DKS2kHR6mHvIa0FAufZdYNxoAn-zJY_pxr2ng&oe=648A522A",
+    foto: "assets/Productos/hamburguesa.jpg",
     nombre: "Hamburguesas",
     precio: 2700
 },
