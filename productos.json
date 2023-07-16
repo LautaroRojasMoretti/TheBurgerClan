@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "foto": "assets/Productos/hamburguesa.jpg",
+      "nombre": "Hamburguesas",
+      "precio": 2700
+    },
+    {
+      "id": 2,
+      "foto": "https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "nombre": "Papas Fritas",
+      "precio": 1100
+    },
+    {
+      "id": 3,
+      "foto": "https://cdn.colombia.com/gastronomia/2013/09/18/hot-dog-de-gusanos-frescos-3246.jpg",
+      "nombre": "Hot dogs",
+      "precio": 500
+    },
+    {
+      "id": 4,
+      "foto": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQUHtz7A2_6ALdaivNvFEgPaW-cT2p9oyCBUYCBExbMea8-H0Fd",
+      "nombre": "Nuggets",
+      "precio": 1100
+    },
+    {
+      "id": 5,
+      "foto": "https://www.schaer.com/sites/default/files/styles/landscape_xxl/public/2056_CaesarSalad%20%28ES-MX%2C%20AR%2C%20INT%29.jpg",
+      "nombre": "Ensaladas",
+      "precio": 850
+    },
+    {
+      "id": 6,
+      "foto": "https://tofuu.getjusto.com/orioneat-prod/sXYoXQo2nz4e6NRFg-2x1%20combo%20joven%20angus%20queso.jpg",
+      "nombre": "Combo hamburguesa + papas fritas + bebida",
+      "precio": 3500
+    },
+    {
+      "id": 7,
+      "foto": "https://umamigirl.com/wp-content/uploads/2022/06/New-England-Style-Hot-Dog-Buns-Umami-Girl-1200-2.jpg",
+      "nombre": "2 hot dogs",
+      "precio": 900
+    },
+    {
+      "id": 8,
+      "foto": "https://previews.123rf.com/images/yuliadavidovich/yuliadavidovich1509/yuliadavidovich150900070/45217690-comida-r%C3%A1pida-nuggets-de-pollo-papas-fritas-y-ensalada-de-verduras-de-cerca.jpg",
+      "nombre": "Nuggets + ensalada",
+      "precio": 1700
+    }
+  ]
+  
